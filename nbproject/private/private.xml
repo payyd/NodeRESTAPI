@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="gvn">
+            <file>file:/home/admyn/Desktop/node_rest_api/.env</file>
+            <file>file:/home/admyn/Desktop/node_rest_api/src/database/sqlconnection.js</file>
+            <file>file:/home/admyn/Desktop/node_rest_api/src/models/UserDto.js</file>
+            <file>file:/home/admyn/Desktop/node_rest_api/src/logger/index.js</file>
+            <file>file:/home/admyn/Desktop/node_rest_api/src/api/script.js</file>
+            <file>file:/home/admyn/Desktop/node_rest_api/config/default.json</file>
+            <file>file:/home/admyn/Desktop/node_rest_api/Dockerfile</file>
+        </group>
+    </open-files>
+</project-private>

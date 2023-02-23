@@ -1,0 +1,12 @@
+{
+"User": {
+        "dbConfig": {
+            "host": "noderestapi-db.mariadb.database.azure.com",
+            "user": "user1@noderestapi-db",
+            "password": "Password123",
+            "database": "mydb",
+            "port": 3306,
+            "multipleStatements": true
+        }
+    }
+}

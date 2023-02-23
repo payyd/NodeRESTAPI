@@ -1,0 +1,6 @@
+{"level":"error","message":"Error on POST /api/v1/User/","service":"user-service","timestamp":"2022-11-01T15:40:38.962Z"}
+{"level":"error","message":"Error on GET /api/v1/User","service":"user-service","timestamp":"2022-11-07T12:40:44.871Z"}
+{"level":"error","message":"Error on GET /api/v1/User","service":"user-service","timestamp":"2022-11-07T12:41:40.191Z"}
+{"level":"error","message":"Error on GET /api/v1/User","service":"user-service","timestamp":"2022-11-08T12:13:04.899Z"}
+{"level":"error","message":"Error on POST /api/v1/User/","service":"user-service","timestamp":"2022-11-08T12:24:28.419Z"}
+{"level":"error","message":"Error on GET /api/v1/User","service":"user-service","timestamp":"2022-11-10T10:04:49.661Z"}

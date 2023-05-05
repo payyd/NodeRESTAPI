@@ -1,7 +1,7 @@
-#Node.js REST API with Winston, JOI, and MariaDB
+# Node.js REST API with Winston, JOI, and MariaDB
 This is a Node.js REST API project that includes logging services with Winston, validation with JOI, and connectivity to a MariaDB database. It's also designed to be easily hosted on Azure by using Docker to containerize the project.
 
-Features
+# Features
 This REST API includes the following features:
 
 Logging services with Winston for debugging and error handling
@@ -23,7 +23,7 @@ Copy code
 $ npm start
 The API is now accessible at http://localhost:4023.
 
-Environment Variables
+# Environment Variables
 The following environment variables are required for the API to function properly:
 
 DB_HOST: the hostname for the MariaDB server
@@ -50,10 +50,10 @@ Deletes a user by ID.
 
 
 
-Validation
+# Validation
 JOI is used for request body and query parameter validation. If a request fails validation, a 400 Bad Request response is returned with an error message indicating the validation failure.
 
-Authentication
+# Authentication
 This API uses JWT tokens for authentication. A token is generated when a user logs in, and it expires after 15 minutes. To access the protected routes, an Authorization header with a Bearer token must be included in the request.
 
 The token is generated using the following code:
@@ -102,15 +102,7 @@ The POST /api/v1/token endpoint receives a refresh token in the request body. If
 Logging
 Winston is used for logging services. The logger is configured to write logs to the console in development mode and to a log file in production mode.
 
-Containerization
-This project can be easily containerized using Docker for deployment on Azure or other containerization platforms. To build a Docker image of the project, simply run docker build -t <your-docker-image-name> ..
+# Containerization
+This project can be easily containerized using Docker for deployment on Azure or other containerization platforms.
 
-arduino
-Copy code
-$ docker build -t <your-docker-image-name> .
-Once the image is built, you can run the container with docker run -p 3000:3000 -d <your-docker-image-name>.
 
-arduino
-Copy code
-$ docker run -p 3000:3000 -d <your-docker-image-name>
-The API is now accessible at http://localhost:3000.
